@@ -8,12 +8,12 @@ public class somatorio {
         int aux;
 
         while(i < n){
-            aux = Integer.parseInt(JOptionPane.showInputDialog("Digite o numero para somar!"));
+            aux = Integer.parseInt(JOptionPane.showInputDialog("Digite o "+(i+1)+"° numero para somar!"));
             soma = soma +aux;
             i++;
         }
 
-        JOptionPane.showMessageDialog(null,"Somatorio total:"+soma);
+        JOptionPane.showMessageDialog(null,"Somatorio total: "+soma);
     }
 
 
