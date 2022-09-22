@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 import javax.swing.JOptionPane;
-import javax.swing.JProgressBar;
 
 public class ordenacaoQuickSort {
     public static void main(String[] args)throws Exception {
