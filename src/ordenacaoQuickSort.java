@@ -13,7 +13,8 @@ public class ordenacaoQuickSort {
         }
         JOptionPane.showMessageDialog(null, "Vetor gerado aleatoriamento: "+Arrays.toString(vetor));
             sort(vetor,0,vetor.length - 1);
-            Thread.currentThread().sleep(100);
+            Thread.currentThread();
+            Thread.sleep(100);
         JOptionPane.showMessageDialog(null, "Vetor ORDENADO QuickSort"+Arrays.toString(vetor));
     }
 
